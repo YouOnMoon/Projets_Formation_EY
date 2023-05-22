@@ -1,0 +1,23 @@
+Pour ce livrable, et de manière à pouvoir donner un accès aux répertoires d'images et de résultats de réduction dimensionnelle sur le Bucket S3, nous avons défini un utilisateur IAM spécifique.
+
+Liens de connexion : https://022010334949.signin.aws.amazon.com/console
+Nom d'utilisateur : OC_DS_Jury
+Mot de passe : OC_DS8_IAM
+
+Etapes :
+
+1- Utiliser le lien pour accéder à la page de connexion à la console AWS via le compte d'utilisateur IAM.
+2- Entrer le nom d'utilisateur et le mot de passe dans les champs associées et cliquer sur "Se connecter".
+3- Accéder à S3 via la barre de recherche de la console AWS.
+4- Sélectionner le bucket S3 "oc-ds8-ye-data-eu"
+5- Le répertoire "Test" contient les images initiales du jeu de données de Test, et le répertoire "Train" celles du jeu de données d'entraînement.
+6- Le répertoire PCA_Results_Test contient le fichier .csv des features extraits et réduits par PCA du jeu de données de test, et PCA_Results_Train, celles du jeu de données d'entraînement.
+
+Les éléments de ces 4 répertoires sont téléchargeables depuis ce compte utilisateur, et les autres éléments du bucket S3 sont listables.
+
+N'hésitez pas à me contacter en cas de besoin, je reste à votre disposition.
+
+Cordialement, 
+
+Younes EL RHAZALI
+e.younes@hotmail.fr
